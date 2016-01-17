@@ -2,7 +2,11 @@
 Using ajax() function provided by DataTables to communicate with Beego background process.
 ##Tools
 * Install  [Beego](beego.me)
+	* A pretty good Golang frame with detailed documentation
 * Download [Datatables-1.10.10](http://datatables.net/releases/DataTables-1.10.10.zip)
+	* A Jquery pulgin
+* Download [LiteIDE](http://www.golangtc.com/download/liteide)
+	* IDE for Golang, simple and useful
 
 ##Server-side Manual
 [Server-side processing](http://datatables.club/manual/server-side.html)
