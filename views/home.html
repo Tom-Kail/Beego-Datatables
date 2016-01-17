@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- DataTables CSS -->
+	<link rel="stylesheet" type="text/css" href="/static/css/jquery.dataTables.css">
+
+	<!-- jQuery -->
+	<script type="text/javascript" charset="utf8" src="/static/js/jquery.js"></script>
+
+	<!-- DataTables -->
+	<script type="text/javascript" charset="utf8" src="/static/js/jquery.dataTables.js"></script>
+</head>
+<body>
+	<div id="check_home"></div>
+	<table id="dt_table" class="display" cellspacing="0" width="100%">
+		<thead>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Time</th>		
+		</thead>
+		<tbody></tbody>
+	</table>
+
+<script type="text/javascript">
+function refreshTable(){
+	table = $("#dt_table").DataTable();
+	table.ajax.url("/testAjax").load();
+}
+
+$(document).ready(function() {
+	
+	var table = $('#dt_table').DataTable({
+		//"processing":true,
+		"serverSide":true,
+		"ajax":"/testAjax",
+		aoColumns: [
+			{ mData: 'first_name' },
+			{ mData: 'last_name' },
+			{ mData: 'time' }
+		]
+	});
+	window.setInterval(function(){
+		table.ajax.reload();
+		console.log("file\n");
+	},2000);
+});
+</script></body>
+</html>
