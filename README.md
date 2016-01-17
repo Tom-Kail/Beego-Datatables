@@ -17,6 +17,6 @@ Using ajax() function provided by DataTables to communicate with Beego backgroun
 [PHP Example](http://datatables.club/example/server_side/simple.html)
 
 ##Reason of creating this repository
-　　Useing Google and Baidu I can't find helpful information about <strong>"beego datatables ajax"</strong>.<br/>
+　　Using Google and Baidu I can't find helpful information about <strong>"beego datatables ajax"</strong>.<br/>
 　　Maybe, up to now, there is still to few Golang programmers.<br/> 
 
