@@ -18,5 +18,5 @@ Using ajax() function provided by DataTables to communicate with Beego backgroun
 
 ##Reason of creating this repository
 　　Using Google and Baidu I can't find helpful information about <strong>"beego datatables ajax"</strong>.<br/>
-　　Maybe, up to now, there is still to few Golang programmers.<br/> 
+　　Maybe, up to now, there is still too few Golang programmers.<br/> 
 
