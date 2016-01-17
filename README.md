@@ -1,5 +1,5 @@
 # Beego-Datatables
-Using ajax() function provided by DataTables to communicate with Beego background process.
+　　Using ajax() function provided by DataTables to communicate with Beego background process.
 ##Tools
 * Install  [Go](docscn.studygolang.com/doc/install)
 	* Choose suitable version
@@ -9,13 +9,19 @@ Using ajax() function provided by DataTables to communicate with Beego backgroun
 	* A Jquery pulgin
 * Download [LiteIDE](http://www.golangtc.com/download/liteide)
 	* IDE for Golang, simple and useful
-
+	* (http://github.com/Tom-Kail/Beego-Datatables.git/readme_img/LiteIDE.png)
 ##Server-side Manual
-[Server-side processing](http://datatables.club/manual/server-side.html)
+　　[Server-side processing](http://datatables.club/manual/server-side.html)
 
 ##Official Example
-[PHP Example](http://datatables.club/example/server_side/simple.html)
+　　[PHP Example](http://datatables.club/example/server_side/simple.html)
 
+##Result
+　　I use two pictures to show the Timer Refresh.
+	* First image
+		* (http://github.com/Tom-Kail/Beego-Datatables.git/readme_img/first.png)
+	* Second image
+　　		* (http://github.com/Tom-Kail/Beego-Datatables.git/readme_img/second.png)
 ##Reason of creating this repository
 　　Using Google and Baidu I can't find helpful information about <strong>"beego datatables ajax"</strong>.<br/>
 　　Maybe, up to now, there is still too few Golang programmers.<br/> 
