@@ -12,7 +12,7 @@ Using ajax() function provided by DataTables to communicate with Beego backgroun
 [Server-side processing](http://datatables.club/manual/server-side.html)
 
 ##Official Example
-[PHP Example](http://datatables.club/manual/server-side.html)
+[PHP Example](http://datatables.club/example/server_side/simple.html)
 
 ##Reason of creating this repository
 　　Useing Google and Baidu I can't find helpful information about <strong>"beego datatables ajax"</strong>.<br/>
