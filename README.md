@@ -9,7 +9,7 @@
 	* A Jquery pulgin
 * Download [LiteIDE](http://www.golangtc.com/download/liteide)
 	* IDE for Golang, simple and useful
-	![alt text](http://raw.github.com/Tom-Kail/Beego-Datatables/master/readme_img/LiteIDE.png)
+	* ![alt text](https://raw.github.com/Tom-Kail/Beego-Datatables/master/readme_img/LiteIDE.PNG)
 
 ##Server-side Manual
 　　[Server-side processing](http://datatables.club/manual/server-side.html)
@@ -19,10 +19,14 @@
 
 ##Result
 　　I use two pictures to show the Timer Refresh.
-	* First image
-		*![](http://github.com/Tom-Kail/Beego-Datatables.git/readme_img/first.png)
-	* Second image
-　　		*![](http://github.com/Tom-Kail/Beego-Datatables.git/readme_img/second.png)
+　　
+　　<br/>
+　　First image
+　　![alt text](https://raw.github.com/Tom-Kail/Beego-Datatables/master/readme_img/first.PNG)
+　　<br/>
+　　Second image
+　　![alt text](https://raw.github.com/Tom-Kail/Beego-Datatables/master/readme_img/second.PNG)
+
 ##Reason of creating this repository
 　　Using Google and Baidu I can't find helpful information about <strong>"beego datatables ajax"</strong>.<br/>
 　　Maybe, up to now, there is still too few Golang programmers.<br/> 
