@@ -11,8 +11,8 @@ Using ajax() function provided by DataTables to communicate with Beego backgroun
 [PHP Example](http://datatables.club/manual/server-side.html)
 
 ##Reason of creating this repository
-  When I using Google and Baidu to search "beego datatables ajax", I can't find the information which could really help to figure out my problem.
-  Maybe, up to now, there is still only a very samll group of programmers using Golang to build there website. So the info I have searched can't found in the internet. 
+  When I using Google and Baidu to search "beego datatables ajax", I can't find the information which could really help to figure out my problem.<br/>
+  Maybe, up to now, there is still only a very samll group of programmers using Golang to build there website. So the info I have searched can't found in the internet.<br/> 
   So, I have to guess how Datatables's original API ajax() works. It cost lots of time to get right answer. Now I want to share what I learned and hope it could do some help.
  
 
