@@ -32,7 +32,11 @@ $(document).ready(function() {
 	var table = $('#dt_table').DataTable({
 		//"processing":true,
 		"serverSide":true,
-		"ajax":"/testAjax",
+		"ajax":{
+			"url":"/testAjax",
+			"type":"GET",
+			"data":{"uname":"Tom-Kail"}
+		}
 		aoColumns: [
 			{ mData: 'first_name' },
 			{ mData: 'last_name' },

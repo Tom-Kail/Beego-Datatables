@@ -33,6 +33,8 @@ func (this *MainController) TestAjax() {
 	fmt.Println("columns[0][data]: ", this.Input()["columns[0][data]"][0])
 	fmt.Println("columns[1][searchable]:", this.Input()["columns[1][searchable]"][0])
 	draw, _ := strconv.Atoi(this.Input()["draw"][0])
+	// Show uname which sent from front end
+	fmt.Printn("uname:", this.Input()["uname"][0])
 	//Send back []User
 	users := make([]User, 0)
 	//Test timer refresh
